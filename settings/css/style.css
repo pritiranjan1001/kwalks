@@ -1,0 +1,54 @@
+﻿
+
+
+
+/* =============================================================
+GENERAL STYLES
+============================================================ */
+body {
+font-family: 'Ubuntu', sans-serif;
+color: #000;
+}
+
+
+.header {
+font-family: 'Oswald', sans-serif;
+padding-bottom: 40px;
+text-transform: uppercase;
+
+
+}
+
+
+
+/* =============================================================
+MENU SECTION STYLES
+============================================================ */
+.navbar-inverse {
+background-color: rgba(0, 0, 0, 0.9);
+border-color: transparent;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+
+border-bottom: 1px solid rgb(228, 79, 79);
+margin: 10px 20px 10px 20px;
+background-color: rgba(0, 0, 0, 0.9);
+
+}
+
+.navbar-inverse .navbar-nav > li > a {
+font-size: 12px;
+font-weight: 700;
+padding: 10px 20px;
+letter-spacing: 2px;
+margin: 5px 0px 2px 0px;
+color: #FFF;
+border: 1px solid rgba(255,255,255,0.1);
+border: 1px solid #345;
+}
+
+li{
+	color: #454;
+}

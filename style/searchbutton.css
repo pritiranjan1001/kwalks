@@ -1,0 +1,126 @@
+/*search box for searching friends----------------------88888888888--------------------------------------------------------------------------------*/
+
+
+ .cf:before, .cf:after{
+      content:"";
+      display:table;
+    }
+    
+    .cf:after{
+      clear:both;
+    }
+
+    .cf{
+      zoom:1;
+    }
+
+    /*-------------------------------the whole search box-----------------------------------*/  
+    
+    .form1-wrapper {
+        width:99%;
+        height: 40px;
+        padding: 7px;
+        margin: auto;
+        margin-top: 8px;
+       background: rgba(0,90,40,.2);
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        -moz-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+        box-shadow: 0 0px 0px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+    }
+    /*---------------------------------main search box------------------------------------*/
+    .form1-wrapper input {
+        width: 75%;
+        padding: 2px 2px;
+        float: left;    
+        font: small 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+        border: 0;
+        background: #eee;
+        -moz-border-radius: 3px 0 0 3px;
+        -webkit-border-radius: 3px 0 0 3px;
+        border-radius: 3px 0 0 3px; 
+        color: #333;     
+    }
+    
+    .form1-wrapper input:focus {
+        outline: 0;
+        background: #fff;
+        -moz-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+        -webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+        box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+    }
+    
+    .form1-wrapper input::-webkit-input-placeholder {
+       color: #999;
+       font-weight: normal;
+       font-style: italic;
+    }
+    
+    .form1-wrapper input:-moz-placeholder {
+        color: #999;
+        font-weight: normal;
+        font-style: italic;
+    }
+    
+    .form1-wrapper input:-ms-input-placeholder {
+        color: #999;
+        font-weight: normal;
+        font-style: italic;
+    }    
+   /*--------------------------------------------------search button--------------------------------------------------*/
+    .form1-wrapper button {
+        overflow: visible;
+        position: relative;
+        float: right;
+        border: 0;
+        padding: 0;
+        cursor: pointer;
+        height: 25px;
+        width: 25%;
+        font: bold 10px/40px 3px'lucida sans', 'trebuchet MS', 'Tahoma';
+        color: #fff;
+        text-transform: uppercase;
+        background: rgba(0,0,0,0.8);
+        -moz-border-radius: 1px 3px 3px 0;
+        -webkit-border-radius: 0 3px 3px 0;
+        border-radius: 0 3px 3px 0;      
+        text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+    }   
+      
+    .form1-wrapper button:hover{     
+        background: #000;
+    }   
+      
+    .form1-wrapper button:active,
+    .form1-wrapper button:focus{   
+        background: #874545;    
+    }
+    /*border arrow*/
+    .form1-wrapper button:before {
+        content: '';
+        position: absolute;
+        border-width: 8px 8px 8px 0;
+        border-style: solid solid solid none;
+        border-color: transparent #003333 transparent;
+        top: 12px;
+        left: -6px;
+    }
+    
+    .form1-wrapper button:hover:before{
+        border-right-color: #fff;
+    }
+    
+    .form1-wrapper button:focus:before{
+        border-right-color: #c42f2f;
+    }    
+    
+    .form1-wrapper button::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+
+    .forsearching{
+	border: 0px solid #232;
+}
